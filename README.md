@@ -26,9 +26,19 @@ Private network communication can expose traffic if not properly tunneled or pro
 | Unauthorized network access | Controlled tunnel endpoints |
 | Poor visibility | Packet capture and monitoring |
 
-## Screenshots
+## 🧪 Validation & Analysis
+
+### 🔧 VPN Connectivity Test
 ![VPN Client Server Ping](images/vpn-ping.png)
+
+Demonstrates successful communication between VPN client and server, confirming tunnel establishment.
+
+---
+
+### 🔍 Packet Analysis with Wireshark
 ![Wireshark Capture](images/wireshark-capture.png)
+
+Shows encapsulated traffic within the tunnel, validating secure packet transmission and network-layer behavior.
 
 ## GRC Relevance
 This project demonstrates how VPNs support secure communications, access control, monitoring, and network segmentation.
